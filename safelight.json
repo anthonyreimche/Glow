@@ -1,0 +1,13 @@
+{
+  "id": "glow",
+  "name": "Glow",
+  "version": "1.0.0",
+  "description": "Highlights bloom into their surroundings, in linear light before the tone curve. Amount sets how much light spills, Size how far it reaches, Threshold which brightness counts as a light; at threshold 0 the whole photo softens. Works inside masks.",
+  "author": "Anthony Reimche",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "categories": ["Looks"],
+  "keywords": ["glow", "bloom", "halation", "soft-focus", "diffusion", "orton", "dreamy", "highlights", "scene-referred"],
+  "repository": "anthonyreimche/Glow",
+  "minAppVersion": "3.1.0"
+}
