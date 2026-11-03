@@ -91,7 +91,7 @@ Developer Tools ▸ Extensions during development. A **Glow** panel appears in
 Develop (right dock). Build from source with `npm install && npm run build`
 (outputs `dist/index.js`). Needs SafeLight 3.1.0 or later.
 
-## License & credits
+## Licence & credits
 
 **MIT.** An original implementation from textbook parts: the thresholded
 additive bloom of real-time rendering, and the undecimated B3-spline cascade
