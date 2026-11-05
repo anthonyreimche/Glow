@@ -1,7 +1,7 @@
 {
   "id": "glow",
   "name": "Glow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Highlights bloom into their surroundings, in linear light before the tone curve. Amount sets how much light spills, Size how far it reaches, Threshold which brightness counts as a light; at threshold 0 the whole photo softens. Works inside masks.",
   "author": "Anthony Reimche",
   "main": "dist/index.js",
