@@ -1,7 +1,7 @@
 {
   "name": "safelight-glow",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Glow extension for Safelight — highlights bloom into their surroundings in linear light: Amount, Size and Threshold.",
   "type": "module",
   "scripts": {

@@ -70,8 +70,8 @@ describe("glowStage", () => {
     expect(glsl).toContain(glslLiteral(B3[1]));
     expect(glsl).toContain(glslLiteral(B3[0]));
     expect(glsl).toContain(`amount * ${glslLiteral(GAIN)}`);
-    expect(pass.glsl).toContain("inversesqrt((exp2(2.0 * float(uPassCount)) - 1.0) / 3.0)");
-    expect(pass.glsl).toContain("exp2(float(uPassIndex))");
+    expect(pass.glsl).toContain("inversesqrt((exp2(2.0 * passCount) - 1.0) / 3.0)");
+    expect(pass.glsl).toContain("exp2(passIndex)");
   });
 
   it("thresholds on the first draw only and carries the blur afterwards", () => {

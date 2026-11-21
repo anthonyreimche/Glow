@@ -183,7 +183,9 @@ vec3 glowLevel(vec2 uv) { vec3 p = readPrev(uv); return uPassIndex == 0 ? glowLi
 {
   float longEdge = max(1.0 / uTexel.x, 1.0 / uTexel.y);
   float sigma = size * ${A(t)} * longEdge;
-  float s = sigma * inversesqrt((exp2(2.0 * float(uPassCount)) - 1.0) / 3.0) * exp2(float(uPassIndex));
+  float passCount = float(uPassCount);
+  float passIndex = float(uPassIndex);
+  float s = sigma * inversesqrt((exp2(2.0 * passCount) - 1.0) / 3.0) * exp2(passIndex);
   vec3 sum = vec3(0.0);
   for (int dy = -2; dy <= 2; dy++) {
     for (int dx = -2; dx <= 2; dx++) {
