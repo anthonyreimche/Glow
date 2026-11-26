@@ -33,6 +33,7 @@ export function activate(host: SafelightAPI): void {
     title: "Glow",
     component: GlowPanel,
     defaultDock: { module: "develop", direction: "right", order: 8, width: 268 },
+    modules: ["develop"],
     onReset: reset,
     // The same panel edits a mask's glow in the Masking panel's Adjust tab.
     mask: { component: GlowPanel, owns: allKeys() },

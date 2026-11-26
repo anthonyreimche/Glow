@@ -278,6 +278,7 @@ function B(e) {
 			order: 8,
 			width: 268
 		},
+		modules: ["develop"],
 		onReset: z,
 		mask: {
 			component: O,
